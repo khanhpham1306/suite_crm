@@ -172,13 +172,9 @@ $dictionary['CANALI_GarmentOrders'] = array(
         'contact_id' => array(
             'name'       => 'contact_id',
             'vname'      => 'LBL_CANALI_CLIENT',
-            'type'       => 'relate',
-            'dbType'     => 'id',
-            'module'     => 'Contacts',
-            'id_name'    => 'contact_id',
-            'rname'      => 'name',
-            'source'     => 'non-db',
+            'type'       => 'id',
             'reportable' => true,
+            'comment'    => 'FK to contacts.id',
         ),
 
         'contact_name' => array(
@@ -196,6 +192,7 @@ $dictionary['CANALI_GarmentOrders'] = array(
             'len'        => '255',
             'source'     => 'non-db',
             'unified_search' => true,
+            'reportable' => true,
         ),
 
         'contact_link' => array(
@@ -222,7 +219,6 @@ $dictionary['CANALI_GarmentOrders'] = array(
     ),
 
     'indices' => array(
-        array('name' => 'canali_go_pk',        'type' => 'primary',  'fields' => array('id')),
         array('name' => 'canali_go_contact',   'type' => 'index',    'fields' => array('contact_id')),
         array('name' => 'canali_go_status',    'type' => 'index',    'fields' => array('order_status')),
         array('name' => 'canali_go_assigned',  'type' => 'index',    'fields' => array('assigned_user_id')),
