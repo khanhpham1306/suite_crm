@@ -1,0 +1,37 @@
+services:
+  app:
+    build: .
+    container_name: suitecrm_app
+    ports:
+      - "8080:80"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - APACHE_DOCUMENT_ROOT=/var/www/html
+    volumes:
+      - suitecrm_data:/var/www/html/upload
+      - suitecrm_custom:/var/www/html/custom
+    restart: unless-stopped
+
+  db:
+    image: mariadb:10.6
+    container_name: suitecrm_db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: suitecrm
+      MYSQL_USER: suitecrm
+      MYSQL_PASSWORD: suitecrm
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-prootpassword"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  suitecrm_data:
+  suitecrm_custom:
+  db_data:
