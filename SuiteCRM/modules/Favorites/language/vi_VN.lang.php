@@ -1,0 +1,33 @@
+<?php
+if (!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+$mod_strings = array(
+    'LBL_ASSIGNED_TO_ID' => 'Id người dùng được chỉ định',
+    'LBL_ASSIGNED_TO_NAME' => 'Được giao cho',
+    'LBL_ID' => 'Mã số',
+    'LBL_DATE_ENTERED' => 'Ngày tạo',
+    'LBL_DATE_MODIFIED' => 'Ngày sửa đổi',
+    'LBL_MODIFIED' => 'Được sửa đổi bởi',
+    'LBL_MODIFIED_NAME' => 'Được sửa đổi theo tên',
+    'LBL_CREATED' => 'Tạo bởi',
+    'LBL_DESCRIPTION' => 'Mô tả',
+    'LBL_DELETED' => 'Đã xóa',
+    'LBL_NAME' => 'Tên',
+    'LBL_CREATED_USER' => 'Được tạo bởi người dùng',
+    'LBL_MODIFIED_USER' => 'Được sửa đổi bởi người dùng',
+    'LBL_LIST_NAME' => 'Tên',
+    'LBL_EDIT_BUTTON' => 'Chỉnh sửa',
+    'LBL_REMOVE' => 'Xóa',
+    'LBL_LIST_FORM_TITLE' => 'Danh sách yêu thích',
+    'LBL_MODULE_NAME' => 'Yêu thích',
+    'LBL_MODULE_TITLE' => 'Yêu thích',
+    'LBL_HOMEPAGE_TITLE' => 'Yêu thích của tôi',
+    'LNK_NEW_RECORD' => 'Tạo yêu thích',
+    'LNK_LIST' => 'Xem mục yêu thích',
+    'LBL_SEARCH_FORM_TITLE' => 'Tìm kiếm yêu thích',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Xem lịch sử',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Hoạt động',
+    'LBL_NEW_FORM_TITLE' => 'Yêu thích mới',
+    'LBL_MARK_FAVORITE' => 'Đánh dấu là yêu thích',
+    'LBL_UNMARK_FAVORITE' => 'Bỏ đánh dấu yêu thích',
+);

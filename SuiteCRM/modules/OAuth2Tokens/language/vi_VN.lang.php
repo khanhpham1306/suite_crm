@@ -1,0 +1,33 @@
+<?php
+if (!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+$mod_strings = array(
+    'LBL_MODULE_NAME' => 'Mã thông báo OAuth2',
+    'LBL_MODULE_TITLE' => 'Mã thông báo OAuth2',
+    'LBL_MODULE_ID' => 'Mã thông báo OAuth2',
+    'LBL_TOKEN_ID' => 'ID mã thông báo',
+    'LBL_CLIENT' => 'Khách hàng',
+    'LBL_TOKEN_IS_REVOKED' => 'Đã thu hồi',
+    'LBL_ACCESS_TOKEN_TYPE' => 'Loại mã thông báo',
+    'LBL_ACCESS_TOKEN_EXPIRES' => 'Mã thông báo truy cập hết hạn',
+    'LBL_REFRESH_TOKEN_EXPIRES' => 'Mã thông báo làm mới hết hạn',
+    'LBL_GRANT_TYPE' => 'Loại tài trợ',
+    'LBL_SCOPES' => 'Phạm vi',
+    'LBL_REVOKE_TOKEN' => 'Thu hồi mã thông báo',
+    'LBL_REVOKE_TOKENS' => 'Thu hồi Token',
+    'LBL_CLIENT_NAME' => 'Tên khách hàng',
+    'LBL_USER' => 'Người dùng liên kết',
+    'LBL_IS_ACTIVE' => 'Chỉ các mã thông báo đang hoạt động',
+    'LNK_OAUTH2_TOKEN_LIST' => 'Liệt kê mã thông báo OAuth2',
+    'LNK_OAUTH2_CLIENT_LIST' => 'Liệt kê khách hàng OAuth2',
+    'LNK_OAUTH2_AUTHCODE_LIST' => 'Liệt kê mã ủy quyền OAuth2',
+    'LNK_NEW_OAUTH2_CLIENT' => 'Tạo ứng dụng khách OAuth2',
+    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Ứng dụng mật khẩu mới',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Thông tin xác thực của khách hàng mới Khách hàng',
+    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Khách hàng tiềm ẩn mới',
+    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Ứng dụng khách ủy quyền mới',
+    'LBL_ACCESS_TOKEN' => 'Mã thông báo truy cập',
+    'LBL_REFRESH_TOKEN' => 'Làm mới mã thông báo',
+    'LBL_DELETE_CONFIRMATION' => 'Bạn có chắc chắn muốn xóa bản ghi này không? Khách hàng sẽ không được cấp mã ủy quyền nữa.',
+    'LBL_REVOKE_AND_DELETE_BUTTON_LABEL' => 'Thu hồi và xóa',
+);

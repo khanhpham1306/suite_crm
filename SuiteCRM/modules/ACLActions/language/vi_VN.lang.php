@@ -1,0 +1,32 @@
+<?php
+if (!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+$mod_strings = array(
+    'LBL_ACCESS_ALL' => 'Tất cả',
+    'LBL_ACCESS_NONE' => 'Không có',
+    'LBL_ACCESS_OWNER' => 'Chủ sở hữu',
+    'LBL_ACCESS_GROUP' => 'Nhóm',
+    'LBL_ACCESS_NORMAL' => 'Bình thường',
+    'LBL_ACCESS_ADMIN' => 'Quản trị viên',
+    'LBL_ACCESS_ENABLED' => 'Đã bật',
+    'LBL_ACCESS_DISABLED' => 'Đã tắt',
+    'LBL_ACCESS_DEV' => 'Nhà phát triển',
+    'LBL_ACCESS_ADMIN_DEV' => 'Quản trị viên & Nhà phát triển',
+    'LBL_NAME' => 'Tên',
+    'LBL_DESCRIPTION' => 'Mô tả',
+    'LIST_ROLES' => 'Danh sách vai trò',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Người dùng',
+    'LIST_ROLES_BY_USER' => 'Liệt kê vai trò theo người dùng',
+    'LBL_ROLES_SUBPANEL_TITLE' => 'Vai trò của người dùng',
+    'LBL_SEARCH_FORM_TITLE' => 'Tìm kiếm',
+    'LBL_ACTION_VIEW' => 'Xem',
+    'LBL_ACTION_EDIT' => 'Chỉnh sửa',
+    'LBL_ACTION_DELETE' => 'Xóa',
+    'LBL_ACTION_IMPORT' => 'Nhập khẩu',
+    'LBL_ACTION_EXPORT' => 'Xuất',
+    'LBL_ACTION_LIST' => 'Danh sách',
+    'LBL_ACTION_MASSUPDATE' => 'Cập nhật hàng loạt',
+    'LBL_ACTION_ACCESS' => 'Truy cập',
+    'LBL_ACTION_ADMIN' => 'Loại truy cập',
+    'LBL_ACCESS_DEFAULT' => 'Chưa được đặt',
+);
