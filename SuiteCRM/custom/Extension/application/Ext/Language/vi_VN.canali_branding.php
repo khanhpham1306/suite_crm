@@ -1,0 +1,87 @@
+<?php
+if (!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+$app_strings = array(
+    'LBL_BROWSER_TITLE' => 'CANALI',
+    'LBL_SUITECRM_TITLE' => 'CANALI',
+    'LBL_ALT_LOGO_TEXT' => 'CANALI',
+);
+
+$app_list_strings = array(
+    'moduleList' => array(
+        'Contacts' => 'Khách hàng',
+        'Accounts' => 'Xưởng may',
+        'CANALI_GarmentOrders' => 'Đơn hàng may mặc',
+    ),
+    'moduleListSingular' => array(
+        'Contacts' => 'Khách hàng',
+        'Accounts' => 'Xưởng may',
+        'CANALI_GarmentOrders' => 'Đơn hàng may mặc',
+    ),
+    'lead_source_dom' => array(
+        '' => '',
+        'Referral' => 'Giới thiệu khách hàng',
+        'In-Store Visit' => 'Ghé thăm tại cửa hàng',
+        'Private Event' => 'Sự kiện riêng tư',
+        'Trunk Show' => 'Hiển thị thân cây',
+        'Digital' => 'Kỹ thuật số / Trực tuyến',
+        'Press / Editorial' => 'Báo chí / Biên tập',
+        'Personal Network' => 'Mạng Cá Nhân',
+        'Other' => 'Khác',
+    ),
+    'canali_client_tier_list' => array(
+        '' => '',
+        'Bronze' => 'Đồng',
+        'Silver' => 'Bạc',
+        'Gold' => 'Vàng',
+        'Platinum' => 'Bạch kim',
+        'Bespoke' => 'Đặt riêng (Riêng tư)',
+    ),
+    'canali_fit_style_list' => array(
+        '' => '',
+        'Slim' => 'Mỏng',
+        'Contemporary' => 'Đương đại',
+        'Classic' => 'Cổ điển',
+        'Full' => 'Đầy đủ / Thư giãn',
+        'Bespoke' => 'Đặt riêng',
+    ),
+    'canali_garment_type_list' => array(
+        '' => '',
+        'Suit' => 'Suit (2 mảnh)',
+        'Suit_3pc' => 'Suit (3 mảnh)',
+        'Jacket' => 'Áo khoác thể thao / Áo khoác',
+        'Tuxedo' => 'Tuxedo / Buổi tối',
+        'Trouser' => 'Quần',
+        'Overcoat' => 'Áo khoác ngoài',
+        'Shirt' => 'Áo Sơ Mi',
+        'Knitwear' => 'Hàng dệt kim',
+        'Accessory' => 'Phụ kiện',
+        'Other' => 'Khác',
+    ),
+    'canali_order_status_list' => array(
+        '' => '',
+        'Consultation' => 'Tư vấn',
+        'Fabric Selected' => 'Vải Được Chọn',
+        'Measurements Taken' => 'Số đo đã thực hiện',
+        'In Production' => 'Đang sản xuất',
+        'First Fitting' => 'Lắp đầu tiên',
+        'Alterations' => 'Thay đổi',
+        'Final Fitting' => 'Lắp cuối cùng',
+        'Ready' => 'Sẵn sàng cho Bộ sưu tập',
+        'Delivered' => 'Đã giao hàng',
+        'Cancelled' => 'Đã hủy',
+    ),
+    'canali_fabric_category_list' => array(
+        '' => '',
+        'Wool' => 'Len',
+        'Cashmere' => 'Cashmere',
+        'Silk' => 'Tơ lụa',
+        'Linen' => 'Vải lanh',
+        'Cotton' => 'Bông',
+        'Flannel' => 'Vải nỉ',
+        'Tweed' => 'Vải tuýt',
+        'Velvet' => 'Nhung',
+        'Blend' => 'Pha trộn',
+        'Other' => 'Khác',
+    ),
+);

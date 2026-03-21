@@ -1,0 +1,32 @@
+<?php
+if (!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+$mod_strings = array(
+    'LBL_ASSIGNED_TO_ID' => 'Id người dùng được chỉ định',
+    'LBL_ASSIGNED_TO_NAME' => 'Được giao cho',
+    'LBL_ID' => 'Mã số',
+    'LBL_DATE_ENTERED' => 'Ngày tạo',
+    'LBL_DATE_MODIFIED' => 'Ngày sửa đổi',
+    'LBL_MODIFIED' => 'Được sửa đổi bởi',
+    'LBL_MODIFIED_NAME' => 'Được sửa đổi theo tên',
+    'LBL_CREATED' => 'Tạo bởi',
+    'LBL_DESCRIPTION' => 'Mô tả',
+    'LBL_DELETED' => 'Đã xóa',
+    'LBL_NAME' => 'Tên',
+    'LBL_CREATED_USER' => 'Được tạo bởi người dùng',
+    'LBL_MODIFIED_USER' => 'Được sửa đổi bởi người dùng',
+    'LBL_LIST_NAME' => 'Tên',
+    'LBL_EDIT_BUTTON' => 'Chỉnh sửa',
+    'LBL_REMOVE' => 'Xóa',
+    'LBL_LIST_FORM_TITLE' => 'Danh sách sự kiện trường hợp',
+    'LBL_MODULE_NAME' => 'Sự kiện điển hình',
+    'LBL_MODULE_TITLE' => 'Sự kiện điển hình',
+    'LBL_HOMEPAGE_TITLE' => 'Trường hợp của tôi Sự kiện',
+    'LNK_NEW_RECORD' => 'Tạo sự kiện trường hợp',
+    'LNK_LIST' => 'Xem sự kiện trường hợp',
+    'LBL_SEARCH_FORM_TITLE' => 'Trường hợp tìm kiếm Sự kiện',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Xem lịch sử',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Hoạt động',
+    'LBL_NEW_FORM_TITLE' => 'Sự kiện trường hợp mới',
+    'LBL_CASE_NAME' => 'Trường hợp',
+);

@@ -1,0 +1,33 @@
+<?php
+if (!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+$mod_strings = array(
+    'LBL_ASSIGNED_TO_ID' => 'Id người dùng được chỉ định',
+    'LBL_ASSIGNED_TO_NAME' => 'Được giao cho',
+    'LBL_ID' => 'Mã số',
+    'LBL_DATE_ENTERED' => 'Ngày tạo',
+    'LBL_DATE_MODIFIED' => 'Ngày sửa đổi',
+    'LBL_MODIFIED' => 'Được sửa đổi bởi',
+    'LBL_MODIFIED_NAME' => 'Được sửa đổi theo tên',
+    'LBL_CREATED' => 'Được tạo bởi',
+    'LBL_DESCRIPTION' => 'Mô tả',
+    'LBL_DELETED' => 'Đã xóa',
+    'LBL_NAME' => 'Địa chỉ',
+    'LBL_CREATED_USER' => 'Được tạo bởi người dùng',
+    'LBL_MODIFIED_USER' => 'Được sửa đổi bởi người dùng',
+    'LBL_LIST_NAME' => 'Địa chỉ',
+    'LBL_LIST_FORM_TITLE' => 'Danh sách bộ đệm địa chỉ',
+    'LBL_MODULE_NAME' => 'Bộ đệm địa chỉ',
+    'LBL_MODULE_TITLE' => 'Bộ đệm địa chỉ',
+    'LBL_HOMEPAGE_TITLE' => 'Bộ nhớ đệm địa chỉ của tôi',
+    'LNK_NEW_RECORD' => 'Tạo bộ đệm địa chỉ',
+    'LNK_LIST' => 'Xem bộ đệm địa chỉ',
+    'LBL_SEARCH_FORM_TITLE' => 'Bộ đệm địa chỉ tìm kiếm',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Xem lịch sử',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Hoạt động',
+    'LBL_NEW_FORM_TITLE' => 'Bộ đệm địa chỉ mới',
+    'LBL_LAT' => 'Vĩ độ',
+    'LBL_LNG' => 'Kinh độ',
+    'LBL_CURRENT_USER_FILTER' => 'Mục của tôi',
+    'LBL_ASSIGNED_TO' => 'Người dùng được chỉ định',
+);

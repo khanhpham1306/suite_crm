@@ -1,0 +1,32 @@
+<?php
+if (!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+$mod_strings = array(
+    'LBL_MODULE_NAME' => 'Khách hàng OAuth2',
+    'LBL_MODULE_TITLE' => 'Khách hàng OAuth2',
+    'LBL_MODULE_ID' => 'Khách hàng OAuth2',
+    'LBL_IS_CONFIDENTIAL' => 'Được bảo mật',
+    'LBL_SECRET' => 'Bí mật',
+    'LBL_SECRET_HASHED' => 'Thay đổi bí mật',
+    'LBL_LEAVE_BLANK' => 'Để trống trừ khi thay đổi',
+    'LBL_REMEMBER_SECRET' => 'Vui lòng ghi lại bí mật vì nó sẽ không có sẵn sau khi bạn lưu.',
+    'LBL_REDIRECT_URL' => 'URL chuyển hướng',
+    'LBL_ALLOWED_GRANT_TYPE' => 'Loại trợ cấp được phép',
+    'LBL_DURATION_AMOUNT' => 'Lượng thời lượng',
+    'LBL_DURATION_UNIT' => 'Đơn vị thời lượng',
+    'LBL_DURATION_VALUE' => 'Giá trị thời lượng',
+    'LBL_USER' => 'Người dùng liên kết',
+    'LBL_OAUTHTOKENS_SUBPANEL_TITLE' => 'Mã thông báo OAuth2 đang hoạt động',
+    'LBL_TOKEN_ID' => 'Mã thông báo',
+    'LBL_DATE_ENTERED' => 'Ngày tạo',
+    'LBL_ACCESS_TOKEN_EXPIRES' => 'Mã thông báo truy cập hết hạn',
+    'LBL_REFRESH_TOKEN_EXPIRES' => 'Mã thông báo làm mới hết hạn',
+    'LNK_OAUTH2_TOKEN_LIST' => 'Liệt kê mã thông báo OAuth2',
+    'LNK_OAUTH2_CLIENT_LIST' => 'Liệt kê khách hàng OAuth2',
+    'LNK_OAUTH2_AUTHCODE_LIST' => 'Liệt kê mã ủy quyền OAuth2',
+    'LNK_NEW_OAUTH2_CLIENT' => 'Tạo ứng dụng khách OAuth2',
+    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Ứng dụng mật khẩu mới',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Thông tin xác thực của khách hàng mới Khách hàng',
+    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Khách hàng tiềm ẩn mới',
+    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Ứng dụng khách ủy quyền mới',
+);

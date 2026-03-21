@@ -1,0 +1,33 @@
+<?php
+if (!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+$mod_strings = array(
+    'LBL_ASSIGNED_TO_ID' => 'Id người dùng được chỉ định',
+    'LBL_ASSIGNED_TO_NAME' => 'Được giao cho',
+    'LBL_ID' => 'Mã số',
+    'LBL_DATE_ENTERED' => 'Ngày tạo',
+    'LBL_DATE_MODIFIED' => 'Ngày sửa đổi',
+    'LBL_MODIFIED' => 'Được sửa đổi bởi',
+    'LBL_MODIFIED_NAME' => 'Được sửa đổi theo tên',
+    'LBL_CREATED' => 'Tạo bởi',
+    'LBL_DESCRIPTION' => 'Mô tả',
+    'LBL_DELETED' => 'Đã xóa',
+    'LBL_NAME' => 'Tên',
+    'LBL_CREATED_USER' => 'Được tạo bởi người dùng',
+    'LBL_MODIFIED_USER' => 'Được sửa đổi bởi người dùng',
+    'LBL_LIST_NAME' => 'Tên',
+    'LBL_EDIT_BUTTON' => 'Biên tập',
+    'LBL_REMOVE' => 'Xóa',
+    'LBL_LIST_FORM_TITLE' => 'Danh sách cảnh báo',
+    'LBL_MODULE_NAME' => 'Cảnh báo',
+    'LBL_MODULE_TITLE' => 'Cảnh báo',
+    'LBL_HOMEPAGE_TITLE' => 'Thông báo của tôi',
+    'LNK_NEW_RECORD' => 'Tạo Cảnh báo',
+    'LNK_LIST' => 'Xem cảnh báo',
+    'LBL_SEARCH_FORM_TITLE' => 'Thông báo tìm kiếm',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Xem lịch sử',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Hoạt động',
+    'LBL_NEW_FORM_TITLE' => 'Thông báo mới',
+    'LBL_IS_READ' => 'Đã đọc',
+    'LBL_TYPE' => 'Loại',
+);
