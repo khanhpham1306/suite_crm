@@ -83,6 +83,11 @@ $sugar_config = array(
     'overrideAjaxBannedModules' => array(),
     'custom_help_url'         => '',
     'custom_help_base_url'    => '',
+    'resource_management' => array(
+        'default_limit'    => 20000,
+        'special_query_limit' => 50000,
+        'special_query_modules' => array(),
+    ),
     'cron' => array(
         'allowed_cron_users' => array('www-data'),
     ),
