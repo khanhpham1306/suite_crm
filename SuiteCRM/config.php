@@ -48,6 +48,7 @@ $sugar_config = array(
     'disable_export'          => false,
     'default_max_tabs'        => 7,
     'list_max_entries_per_page' => 20,
+    'list_max_entries_per_subpanel' => 10,
     'translation_string_prefix' => false,
     'js_lang_version'         => 1,
     'email_warning_notifications' => '',
