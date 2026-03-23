@@ -6,3 +6,10 @@
 
 // Register Vietnamese language pack
 $sugar_config['languages']['vi_VN'] = 'Tiếng Việt';
+
+// Whitelist EC2 IP to prevent false CSRF positives
+$sugar_config['http_referer']['list'][] = '18.136.195.116';
+$sugar_config['http_referer']['actions'] = array(
+    'index', 'ListView', 'DetailView', 'EditView', 'oauth', 'authorize',
+    'Authenticate', 'Login', 'SupportPortal', 'HaravanSettings',
+);
