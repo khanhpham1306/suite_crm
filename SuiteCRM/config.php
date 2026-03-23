@@ -1,0 +1,68 @@
+<?php
+/**
+ * SuiteCRM main configuration file.
+ * Generated for the Docker-based CANALI development environment.
+ * DB host matches the 'db' service defined in docker-compose.yml.
+ */
+$sugar_config = array(
+    'dbconfig' => array(
+        'db_host_name'     => 'db',
+        'db_host_instance' => 'SQLEXPRESS',
+        'db_user_name'     => 'suitecrm',
+        'db_password'      => 'suitecrm',
+        'db_name'          => 'suitecrm',
+        'db_type'          => 'mysql',
+        'db_port'          => '',
+        'db_manager'       => 'MysqliManager',
+    ),
+    'dbconfigoption' => array(
+        'persistent' => true,
+        'autofree'   => false,
+        'debug'      => 0,
+        'ssl'        => false,
+    ),
+    'site_url'                => 'http://localhost:8080',
+    'host_name'               => 'localhost',
+    'unique_key'              => 'canali_suite_crm_2024',
+    'cache_dir'               => 'cache/',
+    'upload_dir'              => 'upload/',
+    'session_dir'             => '',
+    'log_dir'                 => '.',
+    'log_level'               => 'fatal',
+    'installer_locked'        => true,
+    'language'                => 'en_us',
+    'default_language'        => 'en_us',
+    'default_charset'         => 'UTF-8',
+    'default_theme'           => 'SuiteP',
+    'default_currency_name'   => 'US Dollars',
+    'default_currency_symbol' => '$',
+    'default_currency_iso4217'=> 'USD',
+    'default_locale_name_format' => 's f l',
+    'default_email_charset'   => 'UTF-8',
+    'default_export_charset'  => 'UTF-8',
+    'export_delimiter'        => ',',
+    'disable_export'          => false,
+    'enable_themes'           => '1',
+    'sugarbeet'               => true,
+    'hide_backtrace'          => false,
+    'sugar_version'           => '7.12.5',
+    'sugar_flavor'            => 'CE',
+    'passwordsetting' => array(
+        'SystemGeneratedPasswordEnable'   => false,
+        'generatepasswordtmpl'            => '',
+        'lostpasswordtmpl'                => '',
+        'minpwdlength'                    => '6',
+        'maxpwdlength'                    => '',
+        'oneupper'                        => false,
+        'onelower'                        => false,
+        'onenumber'                       => false,
+        'onespecial'                      => false,
+        'UserMustChangePasswordOnFirstLogin' => false,
+    ),
+    'logger' => array(
+        'level'        => 'fatal',
+        'file'         => 'suitecrm.log',
+        'default_log'  => 'suitecrm',
+        'type'         => 'SugarLogger',
+    ),
+);
