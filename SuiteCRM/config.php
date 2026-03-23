@@ -23,6 +23,9 @@ $sugar_config = array(
     ),
     'site_url'                => 'http://18.136.195.116:8080',
     'host_name'               => '18.136.195.116',
+    'http_referer'            => array(
+        'list' => array('18.136.195.116'),
+    ),
     'unique_key'              => 'canali_suite_crm_2024',
     'cache_dir'               => 'cache/',
     'upload_dir'              => 'upload/',
