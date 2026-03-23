@@ -53,6 +53,12 @@ $sugar_config = array(
     'js_lang_version'         => 1,
     'email_warning_notifications' => '',
     'require_accounts'        => false,
+    'aos' => array(
+        'lineItems' => array(
+            'enableGroups' => 0,
+            'totalTax'     => 0,
+        ),
+    ),
     'enable_themes'           => '1',
     'sugarbeet'               => true,
     'hide_backtrace'          => false,
