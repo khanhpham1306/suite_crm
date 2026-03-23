@@ -61,8 +61,14 @@ RUN { \
     echo '</VirtualHost>'; \
 } > /etc/apache2/sites-available/000-default.conf
 
+# Install Composer
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
 # Copy SuiteCRM files
 COPY SuiteCRM/ /var/www/html/
+
+# Install PHP dependencies
+RUN cd /var/www/html && composer install --no-dev --no-interaction --optimize-autoloader 2>&1
 
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html \
