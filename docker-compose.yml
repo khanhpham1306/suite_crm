@@ -11,7 +11,7 @@ services:
       - APACHE_DOCUMENT_ROOT=/var/www/html
     volumes:
       - suitecrm_data:/var/www/html/upload
-      - suitecrm_custom:/var/www/html/custom
+      - ./SuiteCRM/custom:/var/www/html/custom
     restart: unless-stopped
 
   db:
@@ -33,5 +33,4 @@ services:
 
 volumes:
   suitecrm_data:
-  suitecrm_custom:
   db_data:
