@@ -77,7 +77,7 @@ class AdministrationViewHaravansettings extends SugarView
         $smarty->assign('moduleUrl',        'index.php?module=Administration&action=HaravanSettings');
 
         echo $smarty->fetch(
-            dirname(__FILE__) . '/../templates/HaravanSettings.tpl'
+            'custom/modules/Administration/templates/HaravanSettings.tpl'
         );
     }
 }
